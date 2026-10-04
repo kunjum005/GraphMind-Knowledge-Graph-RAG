@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+
+# Generated / temporary files
+temp/
+tmp/
+output/
+*.log
+
+# Large datasets / archives
+*.zip
+*.csv
+
+# Local database / generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# GraphMind generated dataset
+DATASET/
